@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: 'class',
   theme: {
     fontFamily: {
@@ -40,11 +40,10 @@ content: ['./src/**/*.{js,jsx,ts,tsx}'],
         590: '590px',
       },
       backgroundImage: {
-        'hero-pattern':
-          "url('https://i.ibb.co/MkvLDfb/Rectangle-4389.png')",
+        'hero-pattern': "url('https://i.ibb.co/gg9CbgR/bgHero.png')",
       },
     },
   },
   plugins: [],
-}
+};
 
